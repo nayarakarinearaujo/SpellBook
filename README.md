@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Aplicação de Magias de Dungeons & Dragons
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta aplicação React permite ao usuário explorar e filtrar magias da API de Dungeons & Dragons 5ª edição. Desenvolvida com React e React Router, a aplicação oferece uma interface responsiva e estilizada para listar e visualizar detalhes das magias.
 
-## Available Scripts
+## Requisitos da Aplicação
 
-In the project directory, you can run:
+1. **Listagem de Magias**:
+   - A aplicação consome a API de Dungeons & Dragons para listar todas as magias disponíveis.
+   - As magias são exibidas em uma lista ou grid, mostrando o nome das magias.
 
-### `npm start`
+2. **Filtro**:
+   - Implementa um filtro para que o usuário possa filtrar magias de forma fácil e flexível.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Detalhes da Magia**:
+   - Ao clicar em uma magia da lista, o usuário é direcionado a uma página de detalhes ou modal com informações completas sobre a magia.
+   - A aplicação consome dados detalhados da magia específica a partir da API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Rotas**:
+   - Utiliza o React Router para navegação entre a página inicial (listagem de magias) e a página de detalhes da magia.
 
-### `npm test`
+5. **Responsividade**:
+   - A interface é responsiva, garantindo uma boa experiência em diferentes dispositivos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. **Estilo**:
+   - Estilização feita com CSS/SASS, sem o uso de frameworks externos de estilização.
 
-### `npm run build`
+7. **Restrições**:
+   - Não foram utilizadas bibliotecas externas de estilização; todos os estilos são implementados nativamente com SASS.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologias Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Router**: Biblioteca para gerenciamento de rotas e navegação entre páginas.
+- **SASS**: Pré-processador CSS para estilização modular e eficiente.
+- **Dungeons & Dragons 5e API**: API para obter dados sobre magias.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalação e Execução
 
-### `npm run eject`
+1. **Clone o Repositório**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
