@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SpellBook/static/css/main.9a88aa26.css",
+    "main.js": "/SpellBook/static/js/main.677697d2.js",
+    "static/js/453.578ead72.chunk.js": "/SpellBook/static/js/453.578ead72.chunk.js",
+    "static/media/imageback.jpg": "/SpellBook/static/media/imageback.77e8b04b91a069ca24b2.jpg",
+    "static/media/image-right.jpg": "/SpellBook/static/media/image-right.8d0da8cfbd377d86783d.jpg",
+    "index.html": "/SpellBook/index.html",
+    "main.9a88aa26.css.map": "/SpellBook/static/css/main.9a88aa26.css.map",
+    "main.677697d2.js.map": "/SpellBook/static/js/main.677697d2.js.map",
+    "453.578ead72.chunk.js.map": "/SpellBook/static/js/453.578ead72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a88aa26.css",
+    "static/js/main.677697d2.js"
+  ]
+}
