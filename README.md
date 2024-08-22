@@ -34,10 +34,5 @@ Esta aplicação React permite ao usuário explorar e filtrar magias da API de D
 - **SASS**: Pré-processador CSS para estilização modular e eficiente.
 - **Dungeons & Dragons 5e API**: API para obter dados sobre magias.
 
-## Instalação e Execução
+## [Demo](https://spellbook-silk.vercel.app/)
 
-1. **Clone o Repositório**:
-
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
