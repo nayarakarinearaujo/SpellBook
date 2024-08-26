@@ -1,4 +1,7 @@
-# Aplicação de Magias de Dungeons & Dragons
+![Texto Alternativo](public/favicon.ico)
+
+
+# Aplicação de Magias de Dungeons & Dragons 
 
 Esta aplicação React permite ao usuário explorar e filtrar magias da API de Dungeons & Dragons 5ª edição. Desenvolvida com React e React Router, a aplicação oferece uma interface responsiva e estilizada para listar e visualizar detalhes das magias.
 
@@ -34,5 +37,7 @@ Esta aplicação React permite ao usuário explorar e filtrar magias da API de D
 - **SASS**: Pré-processador CSS para estilização modular e eficiente.
 - **Dungeons & Dragons 5e API**: API para obter dados sobre magias.
 
-## [Demo](https://spellbook-silk.vercel.app/)
+## Demo
+<!-- [Veja a demo](https://spellbook-silk.vercel.app/) -->
+<a href="https://spellbook-silk.vercel.app/" target="_blank">Veja a demo</a>
 
