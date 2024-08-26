@@ -38,6 +38,6 @@ Esta aplicação React permite ao usuário explorar e filtrar magias da API de D
 - **Dungeons & Dragons 5e API**: API para obter dados sobre magias.
 
 ## Demo
-<!-- [Veja a demo](https://spellbook-silk.vercel.app/) -->
-<a href="https://spellbook-silk.vercel.app/" target="_blank">Veja a demo</a>
+[Veja a demo](https://spellbook-silk.vercel.app/)
+
 
