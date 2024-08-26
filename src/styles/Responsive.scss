@@ -1,0 +1,95 @@
+
+// * Responsive Styles 
+
+@media (max-width: 1200px) {
+    .header-title {
+        font-size: 3rem;
+        top: 110%;
+    }
+
+    .spell-image img {
+        max-width: 300px;
+    }
+
+    .spell-info h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .header-title {
+        font-size: 2.5rem;
+        top: 110%;
+    }
+
+    .spell-details-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .spell-image img {
+        max-width: 60%;
+    }
+
+    .spell-info h1 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .App {
+        padding: 10px;
+    }
+
+    .main-content {
+        margin-top: 50px;
+        padding: 10px;
+    }
+
+    .header-title {
+        font-size: 2rem;
+        top: 106%;
+    }
+
+    .spell-info p {
+        font-size: 1rem;
+    }
+
+    ul {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    li {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 576px) {
+    .header-title {
+        font-size: 1.5rem;
+        top: 106%;
+    }
+
+    .spell-info h1 {
+        font-size: 1rem;
+    }
+
+    .spell-info p {
+        font-size: 0.9rem;
+    }
+
+    .filter {
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        max-width: 90%;
+        font-size: 14px;
+    }
+
+      li {
+        font-size: 0.9rem; 
+    }
+
+
+}

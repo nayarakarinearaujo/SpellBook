@@ -1,0 +1,48 @@
+
+// *SPELL DETAILS
+
+/* Spell Details Styles */
+.spell-details {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border: 1px solid #f0a500;
+    transition: border 0.3s ease-in-out;
+}
+
+.spell-details:hover {
+    border-color: #e0c097;
+}
+
+/* Spell Details Container */
+.spell-details-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.spell-image img {
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.spell-info {
+    flex: 1;
+}
+
+.spell-info h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.spell-info p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.spell-info strong {
+    color: #f0a500;
+}

@@ -1,8 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Home from './pages/Home';
 import SpellDetailPage from './pages/StellDetailPage';
+
 import './styles/App.scss';
+import './styles/Responsive.scss';
+import './styles/SpellDetails.scss';
 
 function App() {
   return (

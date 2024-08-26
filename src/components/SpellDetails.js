@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import spellImage from '../images/image-right.jpg'; // Substitua pelo caminho da imagem que deseja usar
+import spellImage from '../images/image-right.jpg'; 
 
 const SpellDetails = () => {
   const { id } = useParams();
