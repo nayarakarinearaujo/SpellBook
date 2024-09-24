@@ -40,4 +40,6 @@ Esta aplicação React permite ao usuário explorar e filtrar magias da API de D
 ## Demo
 [Veja a demo](https://spellbook-silk.vercel.app/)
 
+![Pagina Inicial]()
+
 
