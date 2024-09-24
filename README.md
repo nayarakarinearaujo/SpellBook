@@ -40,6 +40,6 @@ Esta aplicação React permite ao usuário explorar e filtrar magias da API de D
 ## Demo
 [Veja a demo](https://spellbook-silk.vercel.app/)
 
-![Pagina Inicial]()
+![Pagina Inicial](./src/images/WhatsApp%20Image%202024-09-24%20at%2015.15.10.jpeg)
 
 
